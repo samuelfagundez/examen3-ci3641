@@ -1,12 +1,10 @@
 {
-	"name": "pregunta1",
+	"name": "pregunta4",
 	"version": "1.0.0",
-	"main": "index.ts",
+	"main": "./src/index.ts",
 	"license": "MIT",
 	"scripts": {
 		"start": "ts-node ./src/index.ts",
-		"ejercicio1": "ts-node ./b.1.ts",
-		"ejercicio2": "ts-node ./b.2.ts",
 		"test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
 	},
 	"dependencies": {
